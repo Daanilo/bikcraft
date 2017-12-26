@@ -1,16 +1,207 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bikcraft - Produtos</title>
+    <meta charset="utf-8">
+    <title>Bikcraft - Sobre</title>
     <link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/grid.css">
-	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/produtos.css">
 </head>
+
 <body>
-    <h1 class="introducao">Produtos</h1>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="grid-4">
+                <img src="img/logo.png" alt="bikcraft">
+            </a>
+            <nav class="header_menu grid-12">
+                <ul>
+                    <li>
+                        <a href="sobre.html">sobre</a>
+                    </li>
+                    <li>
+                        <a href="produtos.html" class="menu_ativo">produtos</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfólio</a>
+                    </li>
+                    <li>
+                        <a href="contato.html">contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- Baner de introdução -->
+    <section class="introducao-interna interna_produtos">
+        <div class="container">
+            <h1>Produtos</h1>
+            <p>Conheça todos os nossos produtos</p>
+        </div>
+    </section>
+    <!-- -->
+    <section class="container produto_item">
+        <div class="grid-11">
+            <img src="img/produtos/bikcraft-passeio-1.jpg" alt="bikcraft passeio">
+            <h2>Passeio</h2>
+        </div>
+        <div class="grid-5 produto_icone">
+            <img src="img/produtos/passeio.png" alt="icone passeio">
+        </div>
+        <div class="grid-8">
+            <img src="img/produtos/bikcraft-passeio-2.jpg" alt="icone passeio">
+        </div>
+        <div class="grid-8 produto_info">
+            <p>A prática cotidiana prova que a consolidação das estruturas faz parte de um processo de gestão do processo de
+                comunicação como um todo. </p>
+            <ul>
+                <li>Conforto</li>
+                <li>Velocidade</li>
+                <li>Design</li>
+                <li>Versatilidade</li>
+            </ul>
+        </div>
+
+    </section>
+    <!--Esporte-->
+    <section class="container produto_item">
+        <div class="grid-11">
+            <img src="img/produtos/bikcraft-esporte-1.jpg" alt="bikcraft esporteo">
+            <h2>Esporte</h2>
+        </div>
+        <div class="grid-5 produto_icone">
+            <img src="img/produtos/esporte.png" alt="icone esporte">
+        </div>
+        <div class="grid-8">
+            <img src="img/produtos/bikcraft-esporte-2.jpg" alt="icone esporte">
+        </div>
+        <div class="grid-8 produto_info">
+            <p>A prática cotidiana prova que a consolidação das estruturas faz parte de um processo de gestão do processo de
+                comunicação como um todo. </p>
+            <ul>
+                <li>Conforto</li>
+                <li>Velocidade</li>
+                <li>Design</li>
+                <li>Versatilidade</li>
+            </ul>
+        </div>
+
+    </section>
+    <!--Retro-->
+    <section class="container produto_item">
+        <div class="grid-11">
+            <img src="img/produtos/bikcraft-retro-1.jpg" alt="bikcraft retro">
+            <h2>Retro</h2>
+        </div>
+        <div class="grid-5 produto_icone">
+            <img src="img/produtos/retro.png" alt="icone retro">
+        </div>
+        <div class="grid-8">
+            <img src="img/produtos/bikcraft-retro-2.jpg" alt="iconeretro">
+        </div>
+        <div class="grid-8 produto_info">
+            <p>A prática cotidiana prova que a consolidação das estruturas faz parte de um processo de gestão do processo de
+                comunicação como um todo. </p>
+            <ul>
+                <li>Conforto</li>
+                <li>Velocidade</li>
+                <li>Design</li>
+                <li>Versatilidade</li>
+            </ul>
+        </div>
+
+    </section>
+    <!--Orçamento-->
+    <section class="orcamento">
+        <div class="container">
+            <h2 class="subtitulo">Orçamento</h2>
+            <form action="" id="form_orcamento" class="form grid-8">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+                <label for="email">E-mail</label>
+                <input type="text" id="email">
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone">
+                <label for="espec">Especificações</label>
+                <textarea type="text" id="espec"></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+            <div class="orcamento_dados grid-8">
+                <h3>Dados</h3>
+                <span>37 99999-9999</span>
+                <span class="dados_email">orcamento@bikcarft.com</span>
+                <h3>Monte sua Bikcraft</h3>
+                <p>Escolha suas especificações</p>
+                <ul>
+                    <li>- Cores</li>
+                    <li>- Estilo</li>
+                    <li>- Medidas</li>
+                    <li>- Acessórios</li>
+                    <li>- E Outros</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!--Quebra-->
+
+    <section class="quebra">
+        <blockquote class="quote-externo container">
+            <p>"O verdadeiro segredo a felicidade etá em ter um genuíno interesse por todos os detalhesda vida cotidiana"</p>
+            <cite>WILLIAN MORRIS</cite>
+        </blockquote>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="container">
+
+                <div class="grid-8 footer_historia">
+                    <h3>Nossa história</h3>
+                    <p>"O verdadeiro segredo a felicidade etá em ter um genuíno interesse por todos os detalhesda vida cotidiana"</p>
+                </div>
+
+                <div class="grid-4 footer_contato">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li>(11)99999-9999</li>
+                        <li>contato@bikcraft.com</li>
+                        <li>Pará de Minas - MG</li>
+                    </ul>
+                </div>
+
+                <div class="grid-4 footer_redes">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li>
+                            <a href="www.facebook.com" target="_blank">
+                                <img src="img/redes-sociais/facebook.png" alt="facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="www.instagram.com" target="_blank">
+                                <img src="img/redes-sociais/instagram.png" alt="intagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="www.twitter.com" target="_blank">
+                                <img src="img/redes-sociais/twitter.png" alt="twitter">
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="copy">
+            <div class="container">
+                <p class="grid-16">Bikcraft ® Todos os diretos resevados</p>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
